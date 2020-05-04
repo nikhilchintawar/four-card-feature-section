@@ -9,7 +9,6 @@
   <title>Frontend Mentor | Four card feature section</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -25,16 +24,17 @@
 </header>
 
   <div class="cards">
-  <section class="card">
+   <div class="rowOne">
+  <section class="card"> 
     <hr class="card1">
     <h2>Supervisor</h2>
     <span class="description">Monitors activity to identify project roadblocks</span>
     <div class="img">
       <img src="images/icon-supervisor.svg" alt="Supervisor">
     </div>
-    
   </section>
-  
+</div>
+  <div class="rowTwo">
   <section class="card">
     <hr class="card2">
     <h2>Team Builder</h2>
@@ -44,6 +44,7 @@
   </div>
   </section>
     
+ 
   <section class="card">
     <hr class="card3">
     <h2>Karma</h2>
@@ -52,7 +53,9 @@
     <img src="images/icon-karma.svg" alt="karma">
   </div>
   </section>
-  
+
+</div>
+<div class="rowThree">
   <section class="card">
     <hr class="card4">
     <h2>Calculator</h2>
@@ -61,6 +64,7 @@
     <img src="images/icon-calculator.svg" alt="Calculator">
   </div>
   </section>
+</div>
   </div>
   <footer>
     <p class="attribution">

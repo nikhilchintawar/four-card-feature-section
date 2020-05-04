@@ -65,3 +65,25 @@ hr.card4{
     text-align: right;
     padding: 1rem;
 }
+
+@media screen and (min-width: 600px){
+    .rowOne{
+     margin-left: 33.7%;
+     margin-bottom: -8rem;
+    }
+    .card{
+        width: 30vw;
+    }
+  
+    .rowTwo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10%;
+        column-gap: 460px;
+        margin-left: 0em;
+    }
+    .rowThree{
+        margin-left: 33.7%;
+        margin-top: -8rem;
+    }
+}
